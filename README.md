@@ -4,5 +4,4 @@
 Tensorflow, Keras
 
 ## Codes
-* MNIST classfication
-* MNIST handwritten recognition
+* MNIST classfication and recognition
