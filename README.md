@@ -1,4 +1,4 @@
-# MNIST Classfication
+# MNIST Classification
 This repo classifies hand-written digits from the MNIST dataset using a feed-forward Multilayer Perceptron Network. MLPs are not the preferred way to process image data, but this serves as a good start to Deep Learning journey. The MNIST hand-written digit dataset is included in Tensorflow and can easily be imported and loaded, as we will see below. Using this dataset and a simple feed-forward network, we will demonstrate one approach for how to work with image data and build a network that classifies digits [0,9].
 ![keras-mnist-digits-classification](https://github.com/galax19ksh/MNIST/assets/112553872/566802a5-d6f8-4201-9aee-f9ed63edd14c)
 
