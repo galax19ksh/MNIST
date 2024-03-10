@@ -1,5 +1,5 @@
 # MNIST Classfication
-This repo classify hand-written digits from the MNIST dataset using a feed-forward Multilayer Perceptron Network. MLPs are not the preferred way to process image data, but this serves as a good start to Deep Learning journey. The MNIST hand-written digit dataset is included in Tensorflow and can easily be imported and loaded, as we will see below. Using this dataset and a simple feed-forward network, we will demonstrate one approach for how to work with image data and build a network that classifies digits [0,9].
+This repo classifies hand-written digits from the MNIST dataset using a feed-forward Multilayer Perceptron Network. MLPs are not the preferred way to process image data, but this serves as a good start to Deep Learning journey. The MNIST hand-written digit dataset is included in Tensorflow and can easily be imported and loaded, as we will see below. Using this dataset and a simple feed-forward network, we will demonstrate one approach for how to work with image data and build a network that classifies digits [0,9].
 ![keras-mnist-digits-classification](https://github.com/galax19ksh/MNIST/assets/112553872/566802a5-d6f8-4201-9aee-f9ed63edd14c)
 
 
@@ -11,7 +11,7 @@ The MNIST dataset contains 70,000 images partitioned into 60,000 for training an
 
 ## 2. Dataset Preprocessing
 * **Feature Transformation and Normalization (Input):** We flatten the 2D array of 28x28 input image into 1D array of 784 features. We also normalize the pixel intensities to be in the range [0, 1].
-*  **Label Encoding (output):** Instead of Integer encoding, we use one-hot encoding (`to_categorical()`) to convert each label into a binary vector where the length of the vector is equal to the number of classes [0 to 9].
+*  **Label Encoding (output):** Instead of Integer encoding, we use one-hot encoding `to_categorical()` to convert each label into a binary vector where the length of the vector is equal to the number of classes [0 to 9].
 
 ## 3. Model Implementation
 **Deep Neural Network Architecture:** The network architecture contains An input layer, two hidden layers, and an output layer.
@@ -39,7 +39,7 @@ Although the diagram looks quite a bit different from the single-layer perceptro
 
 ## Model Evaluation
 
-* We call the predict() method to retrieve all the predictions, and then we select a specific index from the test set and print out the predicted scores for each class.
+* We call the `predict()` method to retrieve all the predictions, and then we select a specific index from the test set and print out the predicted scores for each class.
 * We can plot confusion matrix as a heatmap to examine the prediction accuracy.
 
 
